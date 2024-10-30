@@ -1,0 +1,397 @@
+#findio-wrapper {
+    width: 100%;
+    position: relative;
+    float: left;
+    -webkit-transition: all 250ms ease-out;
+    -moz-transition: all 250ms ease-out;
+    -ms-transition: all 250ms ease-out;
+    -o-transition: all 250ms ease-out;
+    transition: all 250ms ease-out;
+}
+
+    #findio-wrapper.findio-cart {
+        width: auto;
+        max-width: 40%;
+        display: inline-block;
+    }
+
+    @media screen and (max-width: 767px) {
+        #findio-wrapper.findio-cart {
+            max-width: none;
+        }
+    }
+
+    #findio-wrapper.findio-cart #findio-offer {
+        margin-bottom: 0;
+    }
+
+    #payment_method_bfg_gateway ~ #findio-wrapper {
+        display: none;
+        z-index: 5;
+    }
+
+    #findio-offer {
+        border-radius: 0;
+        width: 100%;
+        position: relative;
+        float: left;
+        margin: 0 0 25px 0;
+        padding: 25px 20px;
+        background-color: #20bec6;
+        color: #fff;
+    }
+
+    #payment .payment_methods li img#findio-logo,
+    #findio-logo {
+        width: 70px;
+        display: block;
+        float:left;
+        margin: -25px 0 10px 0px;
+        padding: 10px 15px;
+        box-sizing: border-box;
+        max-height: none;
+        background-color: #F4F4F4;
+        border-radius: 0 0 5px 5px;
+        box-shadow: 0px 2px 4px 0px rgba(15, 33, 37, 0.2);
+    }
+
+    .findio__maxedout {
+        position: absolute;
+        width: 100%;
+        z-index: 2;
+        background-color: rgba(32, 190, 198, .90);
+        height: 100%;
+        top: 0;
+        bottom: 0;
+        color: #fff;
+        text-align: center;
+        font-size: 1.40em;
+        padding-top: 1.30em;
+    }
+
+        .findio__maxedout strong {
+            white-space: nowrap;
+        }
+
+    #findio-banner {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        display: inline-block;
+        margin: 15px 0 0 0;
+        padding: 9px 0 0 0;
+        background-color: #fff;
+        border: 3px solid #000;
+    }
+
+        @media screen and (max-width: 767px) {
+            #findio-banner {
+                padding: 9px 9px 0 9px;
+            }
+        }
+
+        .findio-single #findio-banner {
+            margin-bottom: 0;
+        }
+
+    	.findio-shortcode-price + #findio-banner {
+	    	margin: 0 0 0 0;
+    	}
+
+        #payment .payment_methods li img#findio-banner-image,
+        #findio-banner-image {
+            display: inline-block;
+            width: auto;
+            float: none;
+            height: 25px;
+            margin: 0 0 0 0;
+        }
+
+    .findio-offer-table {
+        padding-top: 10px;
+        position: relative;
+        float: left;
+        width: 100%;
+        clear: both;
+    }
+
+    .findio-offer-table label:before {
+        display: none;
+    }
+
+        .table-block {
+            display: inline-block;
+            width: 47.5%;
+            float: left;
+            padding: 15px;
+            border-radius: 5px;
+            border: 2px solid rgba(255,255,255,.5);
+        }
+
+            .table-block + .table-block {
+                float: right;
+            }
+
+        .findio-offer-table label,
+        .woocommerce-checkout-payment .wc_payment_methods .wc_payment_method .findio-offer-table label {
+            text-align: left;
+            color: #fff;
+            width: 45%;
+            display: inline-block;
+            font-size: inherit;
+            color: #fff;
+            cursor: default;
+        }
+
+        .findio-offer-table span,
+        .woocommerce-checkout-payment .wc_payment_methods .wc_payment_method .findio-offer-table span {
+            text-align: right;
+            color: #fff;
+            display: inline-block;
+            float: right;
+            width: 45%;
+        }
+
+        .table-block span,
+        .table-block label {
+            width: 100%;
+            text-align: center;
+            font-weight: 400;
+        }
+
+        .table-block span {
+            font-size: 1.8rem;
+        }
+
+    #findio-shortcode {
+        display: inline-block;
+        width: auto;
+        padding: 1.0rem;
+        text-align: center;
+        width: 100%;
+    }
+
+        .findio-shortcode-label {
+            display: block;
+        }
+
+        .findio-shortcode-amount,
+        .findio-shortcode-duration {
+            font-weight: 700;
+        }
+
+    #findio-wrapper.findio-single {
+        width: 100%;
+        clear: both;
+        display: block;
+        position: relative;
+        float: left;
+    }
+
+        #findio-wrapper.findio-single #findio-offer {
+            width: auto;
+            max-width: 450px;
+            padding-top: 35px;
+        }
+
+        #findio-wrapper.findio-single #findio-offer #findio-logo {
+            margin-top: -35px;
+            margin-bottom: 0;
+        }
+
+        #findio-wrapper.findio-single .findio-shortcode-label {
+            display: inline-block;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+
+	.findio-cart-wrapper {
+		display: inline-block;
+        position: relative;
+		width: 40%;
+		padding: 0 0 0 0;
+        float: left;
+	}
+
+        .findio-cart--loading:before {
+            content: '';
+            background-color: #fff;
+            opacity: .85;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: 3;
+        }
+
+        .findio-cart--loading:after {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            width: 50px;
+            height: 50px;
+            z-index: 3;
+            content: '';
+            display: inline-block;
+            font: normal normal normal 14px/1 FontAwesome;
+            font-size: inherit;
+            text-rendering: auto;
+            content: "\f110";
+            -webkit-animation: fa-spin .75s linear infinite;
+            animation: fa-spin .75s linear infinite;
+            height: 30px;
+            width: 30px;
+            line-height: 30px;
+            font-size: 30px;
+            position: absolute;
+        }
+
+		.findio-cart-wrapper #findio-banner {
+	        margin: 0 0 0 0;
+    	}
+
+		.findio-cart-inner {
+			background-color: #20bec6;
+			display: inline-block;
+			width: 100%;
+            color: #fff;
+            margin: 15px 0 0 0;
+			padding: 25px 20px;
+		}
+
+        .findio-cart-inner img {
+            width: 70px;
+            display: block;
+            float:left;
+            margin: -25px 0 10px 0px;
+            padding: 10px 15px;
+            box-sizing: border-box;
+            max-height: none;
+            background-color: #F4F4F4;
+            border-radius: 0 0 5px 5px;
+            box-shadow: 0px 2px 4px 0px rgba(15, 33, 37, 0.2);
+        }
+
+/*
+Findio finance table
+*/
+h3.findio-example-table-header {
+	display: block;
+	clear: both;
+	font-weight: 700;
+	margin: 0 0 25px 0;
+}
+
+    @media screen and (max-width: 767px) {
+        h3.findio-example-table-header {
+            margin: 25px 0;
+            position:relative;
+            display: inline-block;
+        }
+    }
+
+table.findio-example-table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+/* Zebra striping */
+table.findio-example-table tr:nth-of-type(even) td {
+	background: snow;
+}
+
+table.findio-example-table th {
+	background: SlateGrey;
+	color: white;
+	font-weight: bold;
+	vertical-align: bottom;
+    width: 14%;
+}
+
+table.findio-example-table td,
+table.findio-example-table th {
+	padding: 6px;
+	border: 1px solid LightGrey;
+	text-align: left;
+}
+
+table.findio-example-table th {
+    border-color: LightGrey;
+}
+
+p.findio-example-description {
+	margin: 25px 0 0 0;
+}
+
+	/*
+	Max width before this PARTICULAR table gets nasty
+	This query will take effect for any screen smaller than 760px
+	and also iPads specifically.
+	*/
+	@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1023px)  {
+
+		/* Force table to not be like tables anymore */
+		table.findio-example-table,
+		table.findio-example-table thead,
+		table.findio-example-table tbody,
+		table.findio-example-table th,
+		table.findio-example-table td,
+		table.findio-example-table tr {
+			display: block;
+		}
+
+		/* Hide table headers (but not display: none;, for accessibility) */
+		table.findio-example-table thead tr {
+			position: absolute;
+			top: -9999px;
+			left: -9999px;
+		}
+
+		table.findio-example-table tr { border: 1px solid #ccc; }
+
+		table.findio-example-table td {
+			/* Behave  like a "row" */
+			border: none;
+			border-bottom: 1px solid slateGrey;
+			position: relative;
+			padding-left: 50%;
+			text-align: right;
+		}
+
+		table.findio-example-table td:before {
+			/* Now like a table header */
+			position: absolute;
+			/* Top/left values mimic padding */
+			top: 6px;
+			left: 6px;
+			width: 45%;
+			padding-right: 10px;
+			white-space: nowrap;
+			text-align: left;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+
+		/*
+		Label the data
+		*/
+        table.findio-example-table td:nth-of-type(1):before { content: "Aankoopbedrag"; }
+		table.findio-example-table td:nth-of-type(2):before { content: "Aanbetaling"; }
+		table.findio-example-table td:nth-of-type(3):before { content: "Totaal kredietbedrag"; }
+		table.findio-example-table td:nth-of-type(4):before { content: "Maandtermijn"; }
+		table.findio-example-table td:nth-of-type(5):before { content: "Rentepercentage (vast) *"; }
+		table.findio-example-table td:nth-of-type(6):before { content: "Duur overeenkomst"; }
+		table.findio-example-table td:nth-of-type(7):before { content: "Totaal te betalen bedrag"; }
+        /*
+		table.findio-example-table td:nth-of-type(1):before { content: "Contante waarde"; }
+		table.findio-example-table td:nth-of-type(2):before { content: "Contante betaling of inruil"; }
+		table.findio-example-table td:nth-of-type(3):before { content: "Totale kredietbedrag"; }
+		table.findio-example-table td:nth-of-type(4):before { content: "Maandtermijn"; }
+		table.findio-example-table td:nth-of-type(5):before { content: "* Jaarlijkse kosten percentage"; }
+		table.findio-example-table td:nth-of-type(6):before { content: "Vaste effectieve debetrentevoet op jaarbasis"; }
+		table.findio-example-table td:nth-of-type(7):before { content: "Duur kredietovereenkomst in maanden"; }
+		table.findio-example-table td:nth-of-type(8):before { content: "Totaal door de consument te betalen bedrag"; }
+        */
+	}

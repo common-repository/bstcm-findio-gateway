@@ -1,0 +1,274 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Basticom Findio Gateway\n"
+"POT-Creation-Date: 2018-05-11 14:15+0200\n"
+"PO-Revision-Date: 2018-05-11 14:16+0200\n"
+"Last-Translator: \n"
+"Language-Team: Basticom (web@basticom.nl)\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: bstcm-findio-gateway.php:73
+msgid "Configure"
+msgstr "Configureren"
+
+#: includes/bstcm-findio-gateway-class.php:23
+msgid "Findio"
+msgstr "Findio"
+
+#: includes/bstcm-findio-gateway-class.php:111
+#: includes/bstcm-findio-gateway-class.php:228
+msgid "Choose"
+msgstr "Maak een keuze"
+
+#: includes/bstcm-findio-gateway-class.php:122
+msgid "API service is offline"
+msgstr "API service is offline"
+
+#: includes/bstcm-findio-gateway-class.php:126
+msgid "API service is online"
+msgstr "API service is online"
+
+#: includes/bstcm-findio-gateway-class.php:130
+msgid "API service is offline (statuscode: "
+msgstr "API service is offline (statuscode: "
+
+#: includes/bstcm-findio-gateway-class.php:137
+msgid "Enable/disable"
+msgstr "In-/uitschakelen"
+
+#: includes/bstcm-findio-gateway-class.php:139
+msgid "Activate Findio payment method"
+msgstr "Activeer Findio betaalmethode"
+
+#: includes/bstcm-findio-gateway-class.php:143
+msgid "API status"
+msgstr "API status"
+
+#: includes/bstcm-findio-gateway-class.php:145
+#, php-format
+msgid "Connection with API service: %s"
+msgstr "Verbinding met API service: %s"
+
+#: includes/bstcm-findio-gateway-class.php:149
+msgid "Gateway descriptions"
+msgstr "Betaalmethode omschrijving"
+
+#: includes/bstcm-findio-gateway-class.php:155
+msgid "Title"
+msgstr "Titel"
+
+#: includes/bstcm-findio-gateway-class.php:157
+msgid "Payment methode title for user"
+msgstr "Betaalmethode titel voor de gebruiker"
+
+#: includes/bstcm-findio-gateway-class.php:162
+msgid "Description"
+msgstr "Omschrijving"
+
+#: includes/bstcm-findio-gateway-class.php:164
+msgid "Payment method description for user"
+msgstr "Betaalmethode omschrijving voor de gebruiker"
+
+#: includes/bstcm-findio-gateway-class.php:169
+msgid "Instructions"
+msgstr "Instructies"
+
+#: includes/bstcm-findio-gateway-class.php:171
+msgid "Instructions will be added to the confirmation e-mails and pages."
+msgstr "Instructies worden toegevoegd aan de bevestigingen."
+
+#: includes/bstcm-findio-gateway-class.php:176
+msgid "Front-end display"
+msgstr "Weergave op website"
+
+#: includes/bstcm-findio-gateway-class.php:178
+msgid ""
+"Settings to modify front-end display of Findio items (offer blocks, "
+"information pages, example tables)."
+msgstr ""
+"Instellingen voor het wijzigen van de weergave van de Findio elementen "
+"(aanbod blok, informatie pagina’s, voorbeeld tabellen)."
+
+#: includes/bstcm-findio-gateway-class.php:182
+msgid "Information page"
+msgstr "Informatie pagina"
+
+#: includes/bstcm-findio-gateway-class.php:184
+msgid ""
+"Select WordPress page containing additional informatie for payment method."
+msgstr ""
+"Selecteer de Wordpress pagina met de aanvullende informatie over deze "
+"betaalmethode."
+
+#: includes/bstcm-findio-gateway-class.php:190
+msgid "Loan offer (product)"
+msgstr "Financieringsaanbod (product)"
+
+#: includes/bstcm-findio-gateway-class.php:193
+msgid "Show loan offer on single product page"
+msgstr "Toon aanbod op de product pagina"
+
+#: includes/bstcm-findio-gateway-class.php:194
+msgid "Leave unchecked to enable shortcode usage.<br/>[findio-voorstel]"
+msgstr ""
+"Laat uitgeschakeld om shortcode gebruik toe te staan.<br/>[findio-voorstel]"
+
+#: includes/bstcm-findio-gateway-class.php:199
+msgid "Loan offer (cart)"
+msgstr "Financieringsaanbod (winkelwagen)"
+
+#: includes/bstcm-findio-gateway-class.php:202
+msgid "Show loan offer on cart page"
+msgstr "Toon aanbod op de winkelwagen pagina"
+
+#: includes/bstcm-findio-gateway-class.php:203
+msgid "Leave unchecked to disable loan offer on cart page."
+msgstr ""
+"Laat uitgeschakeld om aanbod op de winkelwagen pagina uit te schakelen."
+
+#: includes/bstcm-findio-gateway-class.php:208
+msgid "Loan financial table"
+msgstr "Financiering tabel"
+
+#: includes/bstcm-findio-gateway-class.php:211
+msgid "Show financial table on product, cart and checkout pages"
+msgstr ""
+"Toon financiering tabel op productpagina, winkelwagen en afrekenen scherm"
+
+#: includes/bstcm-findio-gateway-class.php:212
+msgid "Leave unchecked to disable financial table display on pages."
+msgstr ""
+"Laat uitgeschakeld om aanbod op de winkelwagen pagina uit te schakelen."
+
+#: includes/bstcm-findio-gateway-class.php:217
+msgid "API configuration"
+msgstr "API configuratie"
+
+#: includes/bstcm-findio-gateway-class.php:219
+msgid "Configration for the Findio API calls and calculations."
+msgstr "Instellingen voor de Findio API verbinding en berekeningen."
+
+#: includes/bstcm-findio-gateway-class.php:223
+msgid "Products category"
+msgstr "Artikelen categorie"
+
+#: includes/bstcm-findio-gateway-class.php:225
+msgid "Select global products category used by the API."
+msgstr "Selecteer de artikelen categorie voor gebruik met de API."
+
+#: includes/bstcm-findio-gateway-class.php:238
+msgid "Terms"
+msgstr "Termijnen"
+
+#: includes/bstcm-findio-gateway-class.php:240
+msgid "Number of payment terms"
+msgstr "Aantal betaaltermijnen"
+
+#: includes/bstcm-findio-gateway-class.php:245
+msgid "Min. amount"
+msgstr "Min. bedrag"
+
+#: includes/bstcm-findio-gateway-class.php:247
+msgid "Minimal amount that is accepted by the API"
+msgstr "Minimale bedrag dat door de API wordt geaccepteerd"
+
+#: includes/bstcm-findio-gateway-class.php:252
+msgid "Max. amount"
+msgstr "Max. bedrag"
+
+#: includes/bstcm-findio-gateway-class.php:254
+msgid "Maximum amount that is accepted by the API"
+msgstr "Maximale bedrag dat door de API wordt geaccepteerd"
+
+#: includes/bstcm-findio-gateway-class.php:259
+msgid "API account"
+msgstr "API account"
+
+#: includes/bstcm-findio-gateway-class.php:261
+msgid "API account details for Findio"
+msgstr "API account details voor Findio"
+
+#: includes/bstcm-findio-gateway-class.php:266
+msgid "API key"
+msgstr "API key"
+
+#: includes/bstcm-findio-gateway-class.php:268
+msgid "API key for Findio"
+msgstr "API key voor Findio"
+
+#: includes/bstcm-findio-gateway-class.php:273
+msgid "API secret"
+msgstr "API secret"
+
+#: includes/bstcm-findio-gateway-class.php:275
+msgid "API secret for Findio"
+msgstr "API secret voor Findio"
+
+#: includes/bstcm-findio-gateway-class.php:289
+msgid "API url"
+msgstr "API url"
+
+#: includes/bstcm-findio-gateway-class.php:291
+msgid "API URL endpoint for Findio."
+msgstr "API URL endpoint voor Findio."
+
+#: includes/bstcm-findio-gateway-class.php:294
+msgid "Production environment"
+msgstr "Productie omgeving"
+
+#: includes/bstcm-findio-gateway-class.php:295
+msgid "Acceptation environment"
+msgstr "Acceptatie omgeving"
+
+#: includes/bstcm-findio-gateway-class.php:300
+msgid "API callback URL"
+msgstr "API callback URL"
+
+#: includes/bstcm-findio-gateway-class.php:379
+#: includes/bstcm-findio-gateway-class.php:1350
+msgid "Awaiting loan request approval"
+msgstr "In afwachting van akkoord financiering"
+
+#: includes/bstcm-findio-gateway-class.php:416
+msgid "Shipping costs"
+msgstr "Verzendkosten"
+
+#: includes/bstcm-findio-gateway-class.php:1346
+#: includes/bstcm-findio-gateway-class.php:1362
+msgid "Loan request cancelled by user"
+msgstr "Aanvraag geannuleerd door de gebruiker"
+
+#: includes/bstcm-findio-gateway-class.php:1354
+msgid "Loan request pre approved"
+msgstr "Aanvraag vooraf goedgekeurd"
+
+#: includes/bstcm-findio-gateway-class.php:1358
+msgid "Loan request approved"
+msgstr "Aanvraag goedgekeurd"
+
+#: includes/bstcm-findio-gateway-class.php:1366
+msgid "Loan request rejected"
+msgstr "Aanvraag afgewezen"
+
+#: includes/bstcm-findio-gateway-class.php:1370
+msgid "Loan request timed-out"
+msgstr "Aanvraag verlopen"
+
+#: includes/bstcm-findio-gateway-class.php:1374
+msgid "Loan request unable to verify"
+msgstr "Aanvraag kan niet worden geverifieerd"
+
+#~ msgid "Request a personal loan from Findo."
+#~ msgstr "Vraag een persoonlijke lening aan bij Findio."
+
+#~ msgid "Pay using a personal loan from Findo."
+#~ msgstr "Betaal middels een persoonlijke lening bij Findio."
